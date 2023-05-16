@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url("fonts/Oswald-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.App {
+  font-family: "Oswald-Regular";
+}

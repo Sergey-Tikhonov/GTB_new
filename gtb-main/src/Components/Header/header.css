@@ -1,0 +1,40 @@
+nav {
+    background-color: #000000c5;
+    color: white;
+    font-weight: bold;
+  }
+  nav li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  .link:hover {
+    color: darkgoldenrod;
+    transform: scaleX(1.1);
+  }
+  .size {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+  }
+  .logoLink {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+  }
+  .logoLink:hover {
+    color: darkgoldenrod;
+  }
+  .header__logo {
+    margin-right: 10px;
+  }
+
+@media (max-width: 390px) {
+  .size {
+    display: none;
+  }
+}
